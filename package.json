@@ -1,0 +1,46 @@
+{
+  "name": "sdk-guardian",
+  "version": "0.1.0",
+  "description": "SDK Guardian — the official Discord bot for Scotland Deaf Karting (SDK).",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Scotland Deaf Karting",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "deploy:commands": "tsx src/scripts/deployCommands.ts",
+    "deploy:commands:prod": "node dist/scripts/deployCommands.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm test"
+  },
+  "dependencies": {
+    "discord.js": "14.27.0",
+    "mongoose": "9.11.3",
+    "pino": "10.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "eslint": "10.13.0",
+    "mongodb-memory-server": "11.3.0",
+    "pino-pretty": "13.2.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vitest": "5.0.5"
+  }
+}

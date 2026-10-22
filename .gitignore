@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# SDK Guardian server-specific IDs (use config/guild.example.json as template)
+config/guild.json
+config/guild.test.json

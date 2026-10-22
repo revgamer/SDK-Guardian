@@ -1,0 +1,102 @@
+{
+  "guildId": "",
+  "channels": {
+    "welcomeAndStartHere": {
+      "welcome": "",
+      "sdkRules": "",
+      "chooseYourRoles": ""
+    },
+    "sdkInformation": {
+      "sdkAnnouncement": "",
+      "aboutSdk": "",
+      "membershipInformation": "",
+      "howToJoin": "",
+      "eventCalendar": "",
+      "faq": "",
+      "partnersAndSponsors": ""
+    },
+    "publicCommunity": {
+      "socialChat": "",
+      "photosAndVideos": "",
+      "kartingDiscussion": "",
+      "questionAndAdvice": "",
+      "suggestions": "",
+      "offTopic": ""
+    },
+    "sdkMembership": {
+      "memberAnnouncements": "",
+      "membersLounge": "",
+      "raceRegistration": "",
+      "practiceSessions": "",
+      "raceResults": "",
+      "lapTimeLeaderboard": "",
+      "championshipStandings": "",
+      "travelAndEvents": ""
+    },
+    "raceDayControl": {
+      "raceDayBriefing": "",
+      "driverCheckIn": "",
+      "heatAssignments": "",
+      "liveRaceUpdates": "",
+      "raceDayFeedback": ""
+    },
+    "boardOfTrustees": {
+      "boardAnnouncements": "",
+      "trusteeDiscussion": "",
+      "meetingAgendas": "",
+      "meetingMinutes": "",
+      "financeAndBudgets": "",
+      "membershipAdministrator": "",
+      "trusteeDecisions": "",
+      "botAuditLogs": ""
+    },
+    "videoAndSigningRooms": {
+      "bslCommunityLounge": "",
+      "membersVideoLounge": "",
+      "practiceDiscussion": "",
+      "privateMeeting": ""
+    },
+    "stageAndLiveEvents": {
+      "sdkAnnouncementsStage": "",
+      "agmAndGeneralMeeting": ""
+    },
+    "supportAndModeration": {
+      "helpAndSupport": "",
+      "reportAnIssue": "",
+      "moderatorLogs": "",
+      "botCommands": "",
+      "discordCommunityUpdatesLog": "",
+      "sdkRulesLog": ""
+    },
+    "sdkAdmins": {
+      "adminChat": "",
+      "constitutions": "",
+      "adminBslLounge": ""
+    }
+  },
+  "roles": {
+    "sdkFounder": "",
+    "admins": "",
+    "chairperson": "",
+    "secretary": "",
+    "treasurer": "",
+    "trustees": "",
+    "volunteer": "",
+    "sdkMember": "",
+    "sdkJuniorMember": "",
+    "guest": "",
+    "selfAssign": {
+      "clubNews": "",
+      "socialEvents": "",
+      "practiceAlerts": "",
+      "eventAlerts": ""
+    }
+  },
+  "emojis": {},
+  "notifications": {
+    "clubNews": "sdkInformation.sdkAnnouncement",
+    "socialEvents": "sdkInformation.sdkAnnouncement",
+    "practiceAlerts": "sdkMembership.memberAnnouncements",
+    "eventAlerts": "sdkMembership.memberAnnouncements"
+  }
+}
